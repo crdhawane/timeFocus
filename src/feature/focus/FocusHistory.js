@@ -8,7 +8,6 @@ const HistoryItem = ({ item, index }) => {
   return (
     <Text style={styles.historyItem(item.status)}>
       {item.subject}
-      {console.log("values", item.subject)}
     </Text>
   );
 }
